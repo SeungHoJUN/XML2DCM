@@ -1,0 +1,143 @@
+RestingECG
+│   ├── MuseInfo
+│   │    ├── MuseVersion
+│   ├── PatientDemographics
+│   │    ├── PatientID
+│   │    ├── PatientAge
+│   │    ├── AgeUnits
+│   │    ├── Gender
+│   │    ├── Race
+│   │    ├── PatientLastName
+│   │    ├── PatientFirstName
+│   ├── TestDemographics
+│   │    ├── DataType
+│   │    ├── Site
+│   │    ├── SiteName
+│   │    ├── AcquisitionDevice
+│   │    ├── Status
+│   │    ├── EditListStatus
+│   │    ├── Priority
+│   │    ├── Location
+│   │    ├── LocationName
+│   │    ├── RoomID
+│   │    ├── AcquisitionTime
+│   │    ├── AcquisitionDate
+│   │    ├── CartNumber
+│   │    ├── AcquisitionSoftwareVersion
+│   │    ├── AnalysisSoftwareVersion
+│   │    ├── EditTime
+│   │    ├── EditDate
+│   │    ├── OverreaderID
+│   │    ├── AcquisitionTechID
+│   │    ├── EditorID
+│   │    ├── OverreaderLastName
+│   │    ├── OverreaderFirstName
+│   │    ├── AcquisitionTechLastName
+│   │    ├── AcquisitionTechFirstName
+│   │    ├── EditorLastName
+│   │    ├── EditorFirstName
+│   │    ├── HISStatus
+│   ├── RestingECGMeasurements
+│   │    ├── VentricularRate
+│   │    ├── AtrialRate
+│   │    ├── PRInterval
+│   │    ├── QRSDuration
+│   │    ├── QTInterval
+│   │    ├── QTCorrected
+│   │    ├── PAxis
+│   │    ├── RAxis
+│   │    ├── TAxis
+│   │    ├── QRSCount
+│   │    ├── QOnset
+│   │    ├── QOffset
+│   │    ├── POnset
+│   │    ├── POffset
+│   │    ├── TOffset
+│   │    ├── ECGSampleBase
+│   │    ├── ECGSampleExponent
+│   │    ├── QTcFrederica
+│   ├── OriginalRestingECGMeasurements
+│   │    ├── VentricularRate
+│   │    ├── AtrialRate
+│   │    ├── PRInterval
+│   │    ├── QRSDuration
+│   │    ├── QTInterval
+│   │    ├── QTCorrected
+│   │    ├── PAxis
+│   │    ├── RAxis
+│   │    ├── TAxis
+│   │    ├── QRSCount
+│   │    ├── QOnset
+│   │    ├── QOffset
+│   │    ├── POnset
+│   │    ├── POffset
+│   │    ├── TOffset
+│   │    ├── ECGSampleBase
+│   │    ├── ECGSampleExponent
+│   ├── Diagnosis
+│   │    ├── Modality
+│   │    ├── DiagnosisStatement (multiple)
+│   │    │   ├── StmtFlag
+│   │    │   ├── StmtText
+│   ├── OriginalDiagnosis
+│   │    ├── Modality
+│   │    ├── DiagnosisStatement (multiple)
+│   │    │   ├── StmtFlag
+│   │    │   ├── StmtText
+│   ├── MeasurementMatrix
+│   ├── IntervalMeasurements
+│   │    ├── IntervalMeasurementTimeResolution
+│   │    ├── IntervalMeasurementAmplitudeResolution
+│   │    ├── IntervalMeasurementFilter
+│   │    ├── IntervalMeasurementMode
+│   │    ├── IntervalMeasurementMethodType
+│   │    ├── LeadIntervalCalculationMethod
+│   │    ├── BeatIntervalCalculationMethod
+│   │    ├── MeasuredInterval (multiple)
+│   │    │   ├── IntervalMeasurementLeadID
+│   │    │   ├── IntervalMeasurementBeatNumber
+│   │    │   ├── IntervalMeasurementBeatOffset
+│   │    │   ├── IntervalMeasurementPOnset
+│   │    │   ├── IntervalMeasurementPOffset
+│   │    │   ├── IntervalMeasurementQOnset
+│   │    │   ├── IntervalMeasurementQOffset
+│   │    │   ├── IntervalMeasurementTOffset
+│   │    │   ├── IntervalMeasurementRRInterval
+│   ├── QRSTimesTypes
+│   │    ├── QRS (multiple)
+│   │    │   ├── Number
+│   │    │   ├── Type
+│   │    │   ├── Time
+│   │    ├── GlobalRR
+│   │    ├── QTRGGR
+│   ├── Waveform (multiple)
+│   │    ├── WaveformType
+│   │    ├── WaveformStartTime
+│   │    ├── NumberofLeads
+│   │    ├── SampleType
+│   │    ├── SampleBase
+│   │    ├── SampleExponent
+│   │    ├── HighPassFilter
+│   │    ├── LowPassFilter
+│   │    ├── ACFilter
+│   │    ├── LeadData (multiple)
+│   │    │   ├── LeadByteCountTotal
+│   │    │   ├── LeadTimeOffset
+│   │    │   ├── LeadSampleCountTotal
+│   │    │   ├── LeadAmplitudeUnitsPerBit
+│   │    │   ├── LeadAmplitudeUnits
+│   │    │   ├── LeadHighLimit
+│   │    │   ├── LeadLowLimit
+│   │    │   ├── LeadID
+│   │    │   ├── LeadOffsetFirstSample
+│   │    │   ├── FirstSampleBaseline
+│   │    │   ├── LeadSampleSize
+│   │    │   ├── LeadOff
+│   │    │   ├── BaselineSway
+│   │    │   ├── LeadDataCRC32
+│   │    │   ├── WaveFormData
+│   ├── PharmaData
+│   │    ├── PharmaRRinterval
+│   │    ├── PharmaUniqueECGID
+│   │    ├── PharmaPPinterval
+│   │    ├── PharmaCartID
