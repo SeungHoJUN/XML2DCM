@@ -9,10 +9,9 @@ XML2DCM is a package that converts XML formatted data into Dicom format. ( the X
 
 # XML Structure
 
-XML 파일을 DCM 으로 변환하기 때문에 XML 파일의 형태가 중요합니다.
-다음과 같은 [구조](https://github.com/SeungHoJUN/XML2DCM/blob/main/xml_format.txt)를 가지고 있습니다. 파일 변환 전 해당 형태를 띄고 있는지 확인이 필요합니다.
+XML 파일을 DCM 파일로 변환하기 위해서는 XML 파일의 구조가 정해진 [형식](https://github.com/SeungHoJUN/XML2DCM/blob/main/xml_format.txt)을 따라야 합니다. 변환을 진행하기 전에, 파일이 이 구조를 제대로 갖추고 있는지 확인해야 합니다.
 
-The format of the XML file is crucial for its conversion to a DCM file. It must conform to the following [structure](https://github.com/SeungHoJUN/XML2DCM/blob/main/xml_format.txt). Please verify that the file matches this structure before converting.
+To convert an XML file into a DCM file, the structure of the XML file must adhere to a specified [format](https://github.com/SeungHoJUN/XML2DCM/blob/main/xml_format.txt). Before proceeding with the conversion, it is necessary to verify that the file conforms to this structure.
 
 ---
 
