@@ -34,7 +34,7 @@ python -m pip install --upgrade xml2dcm
 from xml2dcm import xml2dcm
 xml2dcm.create_dicom_file('path/to/your/XML_file.xml', 'path/to/your/output_folder')
 
-read_dicom('path/to/your/Dicom_file.dcm')
+xml2dcm.read_dicom('path/to/your/Dicom_file.dcm')
 ```
 
 ---
