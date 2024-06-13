@@ -32,7 +32,7 @@ python -m pip install --upgrade xml2dcm
 ## Using the XML2DCM Library in Python
 ```
 from xml2dcm import xml2dcm
-xml2dcm.create_dicom_file('xml_file_path\XML_file.xml')
+xml2dcm.create_dicom_file('xml_file_path\XML_file.xml', 'output_folder'= None)
 ```
 
 ---
