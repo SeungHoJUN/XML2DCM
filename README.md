@@ -1,9 +1,9 @@
 ---
 # XML2DCM
 
-XML2DCM은 XML 형태의 데이터를 Dicom 형태로 바꾸는 패키지 입니다. ( 여기서 XML 데이터는 ECG 데이터를 담고 있습니다. )
+XML2DCM은 XML 형태의 데이터를 DiCOM 형태로 바꾸는 패키지 입니다. ( 여기서 XML 데이터는 ECG 데이터를 담고 있습니다. )
 
-XML2DCM is a package that converts XML formatted data into Dicom format. ( the XML data contains ECG information. )
+XML2DCM is a package that converts XML formatted data into DiCOM format. ( the XML data contains ECG information. )
 
 ---
 
@@ -34,7 +34,7 @@ python -m pip install --upgrade xml2dcm
 from xml2dcm import xml2dcm
 xml2dcm.create_dicom_file('path/to/your/XML_file.xml', 'path/to/your/output_folder')
 
-xml2dcm.read_dicom('path/to/your/Dicom_file.dcm')
+xml2dcm.read_dicom('path/to/your/DiCOM_file.dcm')
 ```
 
 ---
