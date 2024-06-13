@@ -7,8 +7,6 @@ from pydicom.dataset import Dataset, FileDataset
 from pydicom.sequence import Sequence
 from pydicom.uid import ExplicitVRLittleEndian, generate_uid, PYDICOM_IMPLEMENTATION_UID
 from datetime import datetime
-from concurrent.futures import ThreadPoolExecutor
-from tqdm import tqdm
 import traceback
 
 def create_dicom_file(xml_file_path, output_folder = 'generated_dicom_from_xml'):
